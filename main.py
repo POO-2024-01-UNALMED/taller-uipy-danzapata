@@ -4,7 +4,7 @@ from tkinter import Tk, Button, Entry
 root = Tk()
 root.title("Calculadora POO")
 root.resizable(0,0)
-root.geometry("290x250")
+root.geometry()
 
 # Configuración pantalla de salida 
 pantalla = Entry(root, width=22, bg="black", fg="white", borderwidth=0, font=("arial", 18, "bold"))
